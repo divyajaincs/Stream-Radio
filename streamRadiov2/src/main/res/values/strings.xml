@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Stream Radio</string>
+    <string name="welcome_big">Hello!</string>
+    <string name="welcome_small">I am a Stream Radio.</string>
+    <string name="delete_dialog_title">Delete Radio</string>
+    <string name="delete_dialog_message">Do you want delete this station?</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_delete">Delete</string>
+    <string name="connection_error_dialog_title">Connection Error</string>
+    <string name="connection_error_dialog_message">No Internet connection. Please check your connection and try again.</string>
+    <string name="connection_error_dialog_button">Retry</string>
+    <string name="admob_id">ca-app-pub-6724609620092206/8406682772</string>
+    <string name="admob_true_or_false">true</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Stream Radio</string>
+    <string name="slide_1_desc">     Using this app you will connect to your favourite Radio stations and Listen various type of music which gives you pleasure.</string>
+
+    <string name="slide_2_title">Live Streaming</string>
+    <string name="slide_2_desc">     This App will provide a live streaming of different radio station on a single          click.</string>
+
+    <string name="slide_3_title">Radio Stations</string>
+    <string name="slide_3_desc">     Radio stations,which are connected through this app they will provide you the real taste of
+                                     music.</string>
+
+    <string name="slide_4_title">Listen Music</string>
+    <string name="slide_4_desc">     Lets Start this app,play FM and enjoy your day with latest songs!!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    
+
+
+</resources>

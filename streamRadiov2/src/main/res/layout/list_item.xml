@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/radio_list_margin"
+        android:layout_marginTop="@dimen/radio_list_margin"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/radioListName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp"
+            android:gravity="bottom|left"
+            android:text="Example FM"
+            android:textColor="#fcfbfc"
+            android:textSize="@dimen/radio_list_name_and_from"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/radioListLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="17dp"
+            android:layout_marginRight="17dp"
+            android:gravity="bottom|right"
+            android:text="Location"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#f1eef4"
+            android:textSize="@dimen/radio_list_name_and_from"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/isPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/radioListLocation"
+            android:layout_marginEnd="41dp"
+            android:layout_marginRight="41dp"
+            android:layout_toLeftOf="@+id/radioListLocation"
+            android:layout_toStartOf="@+id/radioListLocation"
+            android:src="@drawable/now_listen"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>
